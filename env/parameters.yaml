@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:razorcliff/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:razorcliff/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:razorcliff/prow:hmacToken
+segmentWriteKey: vault:razorcliff:segmentWriteKey
